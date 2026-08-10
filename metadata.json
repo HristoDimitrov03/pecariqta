@@ -1,0 +1,5 @@
+{
+  "name": "Пецарията | Pecariqta",
+  "description": "A warm, food-first wood-fired pizzeria website with a brick-oven brand identity — full menu, Wolt delivery, and location services.",
+  "requestFramePermissions": ["geolocation"]
+}
