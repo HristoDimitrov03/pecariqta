@@ -93,7 +93,7 @@ export default function App() {
         {/* Atmospheric Image Break — wood-fired pizza */}
         <div className="h-[400px] w-full relative overflow-hidden">
           <img
-            src="/images/about.png"
+            src="/images/break.png"
             alt="Неаполитанска пица от Пецарията"
             width={1024}
             height={1024}
