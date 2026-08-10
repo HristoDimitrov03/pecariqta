@@ -90,20 +90,19 @@ export default function App() {
 
         <DeliveryBanner />
         
-        {/* Atmospheric Image Break — wood-fired oven & flames */}
+        {/* Atmospheric Image Break — wood-fired pizza */}
         <div className="h-[400px] w-full relative overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2070&auto=format&fit=crop"
-            alt="Пица на дърва във фурна"
-            width={2070}
-            height={1380}
+            src="/images/about.png"
+            alt="Неаполитанска пица от Пецарията"
+            width={1024}
+            height={1024}
             loading="lazy"
             decoding="async"
-            className="w-full h-full object-cover fixed-bg brightness-90"
-            referrerPolicy="no-referrer"
+            className="w-full h-full object-cover object-center fixed-bg brightness-95"
           />
-          <div className="absolute inset-0 bg-gold/20 mix-blend-multiply" />
-          <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gold/15 mix-blend-multiply" />
+          <div className="absolute inset-0 bg-gradient-to-t from-charcoal/50 via-transparent to-transparent" />
         </div>
 
         <Reviews />
