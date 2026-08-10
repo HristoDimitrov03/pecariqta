@@ -65,7 +65,7 @@ export default function OrderPlatformModal({ open, onClose }: Props) {
             </button>
           </div>
 
-          <DeliveryPlatforms className="grid sm:grid-cols-1 gap-4 w-full" showPhone={false} />
+          <DeliveryPlatforms className="grid sm:grid-cols-1 gap-4 w-full" />
         </div>
       </motion.div>
     </div>

@@ -33,7 +33,7 @@ export default function DeliveryBanner() {
           viewport={{ once: true }}
           className="flex-1 w-full max-w-md"
         >
-          <DeliveryPlatforms className="grid sm:grid-cols-1 gap-4 w-full" showPhone={false} />
+          <DeliveryPlatforms className="grid sm:grid-cols-1 gap-4 w-full" />
         </motion.div>
       </div>
     </section>
