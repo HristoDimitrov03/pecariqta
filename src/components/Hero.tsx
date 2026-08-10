@@ -7,12 +7,12 @@ export default function Hero() {
   const { openOrderModal } = useOrderModal();
 
   return (
-    <section id="top" className="relative min-h-dvh w-full overflow-hidden flex items-start md:items-center justify-center pt-[calc(98px+env(safe-area-inset-top,0px))] md:pt-0 bg-dark scroll-mt-0">
+    <section id="top" className="relative min-h-dvh w-full overflow-hidden flex items-start md:items-center justify-center pt-[calc(148px+env(safe-area-inset-top,0px))] md:pt-0 bg-dark scroll-mt-0">
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,_var(--color-blush)_0%,_var(--color-dark)_65%)]" />
       <div className="absolute -top-24 -left-24 w-72 h-72 rounded-full bg-gold/10 blur-[100px] pointer-events-none" aria-hidden="true" />
       <div className="absolute -bottom-24 -right-24 w-72 h-72 rounded-full bg-gold/10 blur-[100px] pointer-events-none" aria-hidden="true" />
 
-      <div className="relative z-10 text-center px-6 max-w-4xl md:mt-0">
+      <div className="relative z-10 text-center px-6 max-w-4xl mt-6 md:mt-0">
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
