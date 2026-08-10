@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from 'motion/react';
-import { ChevronDown, Flame } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 import { useOrderModal } from './OrderModalContext';
 
 export default function Hero() {
@@ -13,17 +13,6 @@ export default function Hero() {
       <div className="absolute -bottom-24 -right-24 w-72 h-72 rounded-full bg-gold/10 blur-[100px] pointer-events-none" aria-hidden="true" />
 
       <div className="relative z-10 text-center px-6 max-w-4xl md:mt-0">
-        <motion.span
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="inline-flex items-center gap-2 text-gold font-bold uppercase tracking-[0.3em] text-sm md:text-base mb-6"
-        >
-          <Flame size={18} aria-hidden="true" />
-          Пица от дърва
-          <Flame size={18} aria-hidden="true" />
-        </motion.span>
-
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
